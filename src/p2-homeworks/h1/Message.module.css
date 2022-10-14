@@ -1,5 +1,41 @@
-.message {
-    display: block;
-    color: greenyellow;
-    
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: greenyellow;
+    width: 320px;
+    height: 80px;
+    border-width: 10px;
+    align-items: center;
+    padding: 5px;
 }
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 20px;
+    align-self: end;
+}
+
+.message {
+    display: grid;
+    background-color: darkgreen;
+    height: 60px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.name {
+    color: blueviolet;
+}
+
+.text {
+    color: darkgray;
+}
+
+.time {
+    color: beige;
+    justify-self: end;
+}
+
+
